@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #86469C;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.alarm-container {
+    background-color: #BC7FCD;
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;      
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border: 10px solid #FB9AD1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-box {
+    background-color: #BC7FCD;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#clock {
+    font-size: 3em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.time-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+label {
+    font-size: 1.2em;
+    color: #333;
+    margin-right: 10px;
+}
+
+input[type="number"] {
+    font-size: 1.2em;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 50px;
+    text-align: center;
+}
+
+.downButton {
+    font-size: 1.2em;
+    padding: 5px;
+    background-color: #FB9AD1;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.downButton:hover {
+    background-color: #E488BE;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}

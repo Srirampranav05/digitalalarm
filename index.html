@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Alarm</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<audio id="alarmSound" loop>
+    <source src="./RINGTONE.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+<div class="alarm-container">
+    <h1>Digital Alarm</h1>
+    <div id="clock"></div>
+    <div class="time-inputs">
+        <label for="hours">Hours:</label>
+        <input type="number" id="hours" min="0" max="23" value="0">
+        <label for="minutes">Minutes:</label>
+        <input type="number" id="minutes" min="0" max="59" value="0">
+        <label for="seconds">Seconds:</label>
+        <input type="number" id="seconds" min="0" max="59" value="0">
+    </div>
+    <div class="controls">
+        <button id="setAlarm">Set Alarm</button>
+    </div>
+</div>
+<div class="inner-box">
+    <div class="alarms-box">
+        <h2>Alarms</h2>
+        <ul id="alarmsList" class="alarms-list"></ul>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
+
